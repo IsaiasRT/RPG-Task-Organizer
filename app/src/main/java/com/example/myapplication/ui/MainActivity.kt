@@ -5,7 +5,7 @@ import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
 import androidx.activity.ComponentActivity
-import androidx.appcompat.R
+import com.example.myapplication.R
 import com.example.myapplication.data.Task
 import com.example.myapplication.databinding.DialogTaskBinding
 
@@ -120,9 +120,9 @@ class MainActivity : ComponentActivity() {
                 }
 
                 val priority = when(dialogBinding.rgPriority.checkedRadioButtonId){
-                    R.id.rbLow -> 1
-                    R.id.rbMedium -> 2
-                    R.id.rbHigh -> 3
+                    R.id.rbLow-> 1
+                    R.id.rbMedium-> 2
+                    R.id.rbHigh-> 3
                     else -> 1
                 }
                 val isCompleted = dialogBinding.cbCompleted.isChecked
