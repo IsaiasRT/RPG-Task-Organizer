@@ -1,8 +1,8 @@
 ---
-title: {{ Task Organizer using RPG Thematics }}
-date: {{ 1/12/2026 }}
-tags: #proyecto #idea #task
-status: idea
+title: Task Organizer using RPG Thematics
+date: 1/12/2026 
+tags: task
+status: developing
 prioridad: high
 ---
 
@@ -27,10 +27,10 @@ A comprehensive task management application program using **Kotlin** for mobile 
 - Python
 
 ## 📝 Tareas Principales
-- [ ] Design the base project structure for Android (Kotlin) using MVVM and Clean Architecture (modules, packages, data/domain/ui).
-- [ ] Implement the task creation, editing, and deletion system with local persistence (Room or DataStore).
+- [X] Design the base project structure for Android (Kotlin) using MVVM and Clean Architecture (modules, packages, data/domain/ui).
+- [X] Implement the task creation, editing, and deletion system with local persistence (Room or DataStore).
+- [ ] Create the main interface with navigation, including a menu bar for Tasks, History for Completed, Deleted and Failed Tasks, Profile, and  Achievements.
 - [ ] Develop the experience and leveling system, including difficulty-based EXP calculation, penalties, and rewards.
-- [ ] Create the main interface with navigation, including a manu bar for Tasks, History for Completed, Deleted and Failed Tasks, Profile, and  Achievements.
 - [ ] Build the Python desktop version (PC) to sync or manage tasks from a computer.
 - [ ] Design the RPG reward system, including badges, titles, and achievements.
 - [ ] Implement optional automatic task generation (daily quests, weekly quests).
