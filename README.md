@@ -55,7 +55,4 @@ https://www.androidauthority.com/best-life-rpg-apps-1037041/
 
 ## ⏰ Timeline Estimado
 
-Before 2/1/2026
-
-
 ## 🚀 Siguiente Paso
